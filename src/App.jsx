@@ -1,6 +1,7 @@
 import { useState } from "react";
 // import logo from './logo.svg'
 import "./App.css";
+import Button from "./components/Buttons/button";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +9,9 @@ function App() {
   return (
     <>
       <h1>Hello, Rohit!</h1>
+      <Button name={"prev"} />
+      <Button name={"now"} />
+      <Button name={"next"} />
     </>
   );
 }
