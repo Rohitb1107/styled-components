@@ -12,7 +12,7 @@ function App() {
       {/* <Button name={"prev"} />
       <Button name={"now"} />
       <Button name={"next"} /> */}
-     <button>Hello</button>
+      <Button>Hello</Button>
     </>
   );
 }
