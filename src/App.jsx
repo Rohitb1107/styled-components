@@ -9,9 +9,10 @@ function App() {
   return (
     <>
       <h1>Hello, Rohit!</h1>
-      <Button name={"prev"} />
+      {/* <Button name={"prev"} />
       <Button name={"now"} />
-      <Button name={"next"} />
+      <Button name={"next"} /> */}
+     <button>Hello</button>
     </>
   );
 }
